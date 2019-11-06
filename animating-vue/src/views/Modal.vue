@@ -16,18 +16,15 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       isOpen: false
     }
   },
   methods: {
-    toggleModal () {
+    toggleModal() {
       this.isOpen = !this.isOpen
     }
   }
 }
 </script>
-
-<style>
-</style>
