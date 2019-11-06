@@ -2,7 +2,9 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Modal</router-link> |
-      <router-link to="/list">List</router-link>
+      <router-link to="/list">List</router-link> |
+      <router-link to="/drawer">Drawer</router-link> |
+      <router-link to="/cards">Cards</router-link>
     </div>
     <transition name="slide-fade" mode="out-in">
       <router-view />
@@ -106,17 +108,11 @@ ul {
   opacity: 0;
 }
 
-.slide-up-enter-active,
-.slide-up-leave-active {
+.slide-up-enter-active {
   transition: all 0.2s ease;
 }
 
-.slide-up-leave-to {
-  transform: translateY(-10px);
-  opacity: 0;
-}
-
 .slide-up-move {
-  transition: transform .2s ease;
+  transition: transform 0.8s ease-in;
 }
 </style>
