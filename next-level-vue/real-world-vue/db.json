@@ -231,42 +231,6 @@
       "date": "",
       "time": "5:00",
       "attendees": []
-    },
-    {
-      "id": 6463727,
-      "user": {
-        "id": "abc123",
-        "name": "Adam"
-      },
-      "category": "housing",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam"
-      },
-      "title": "dsadasd",
-      "description": "asdasd",
-      "location": "Assad",
-      "date": "2019-12-04T01:12:00.000Z",
-      "time": "4:00",
-      "attendees": []
-    },
-    {
-      "id": 4225253,
-      "user": {
-        "id": "abc123",
-        "name": "Adam"
-      },
-      "category": "housing",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam"
-      },
-      "title": "dosa",
-      "description": "asd",
-      "location": "asd",
-      "date": "2019-12-03T01:12:00.000Z",
-      "time": "19:00",
-      "attendees": []
     }
   ]
 }
