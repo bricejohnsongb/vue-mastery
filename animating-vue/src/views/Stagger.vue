@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { TweenMax } from 'gsap/TweenMax'
+import gsap from 'gsap'
 export default {
   data() {
     return {
@@ -20,7 +20,17 @@ export default {
     }
   },
   mounted() {
-    TweenMax.staggerFrom('.card', 0.5, { opacity: 0, y: 200, scale: 0 }, 0.1)
+    gsap.from('.card', {
+      duration: 0.5,
+      opacity: 0,
+      scale: 0,
+      y: 200,
+      ease: 'power1',
+      stagger: {
+        each: 0.1,
+        from: 'center'
+      }
+    })
   }
 }
 </script>
